@@ -1,0 +1,92 @@
+.wrapper {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+
+/* Box1 */
+
+.box {
+    background-color: #b5915f;
+}
+
+.box:nth-child(odd) {
+    background-color: #441a03;
+  }
+
+
+
+  /* Row2 */
+  .box2{
+    background-color: #441a03;
+  }
+
+  .box2:nth-child(odd) {
+    background-color: #b5915f;
+  }
+
+
+
+  /* Row 3 */
+  .box3 {
+    background-color: #b5915f;
+}
+
+.box3:nth-child(odd) {
+    background-color: #441a03;
+  }
+
+  /* Box 4 */
+  .box4{
+    background-color: #441a03;
+  }
+
+  .box4:nth-child(odd) {
+    background-color: #b5915f;
+  }
+
+  /* Box 5 */
+
+  .box5 {
+    background-color: #b5915f;
+}
+
+.box5:nth-child(odd) {
+    background-color: #441a03;
+  }
+
+  /* Box 6 */
+
+  .box6{
+    background-color: #441a03;
+  }
+
+  .box6:nth-child(odd) {
+    background-color: #b5915f;
+  }
+
+  /* Box 7 */
+
+  .box7 {
+    background-color: #b5915f;
+}
+
+.box7:nth-child(odd) {
+    background-color: #441a03;
+  }
+
+  /* Box 8 */
+
+  .box8{
+    background-color: #441a03;
+  }
+
+  .box8:nth-child(odd) {
+    background-color: #b5915f;
+  }
+
+
+  
